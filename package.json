@@ -1,0 +1,42 @@
+{
+  "name": "@c15tour/shared-module",
+  "version": "1.0.0",
+  "description": "Module partagé contenant les types, constantes et utilitaires communs aux apps web et mobile",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C15-TOUR-SUPDEVINCI/shared-module.git"
+  },
+
+  "keywords": [
+    "shared",
+    "typescript",
+    "react",
+    "react-native",
+    "types"
+  ],
+
+  "author": "C15TOUR Team",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/C15-TOUR-SUPDEVINCI/shared-module/issues"
+  },
+
+  "homepage": "https://github.com/C15-TOUR-SUPDEVINCI/shared-module#readme",
+
+  "files": [
+    "dist"
+  ],
+
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

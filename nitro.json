@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["c15tour_sharedmodule"],
+  "ios": {
+    "iosModuleName": "SharedModule"
+  },
+  "android": {
+    "androidNamespace": ["c15tour","sharedmodule"],
+    "androidCxxLibName": "c15tour_sharedmodule"
+  },
+  "autolinking": {
+    "SharedModule": {
+      "swift": "SharedModule",
+      "kotlin": "SharedModule"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
